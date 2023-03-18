@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 140%;
+  width: 22rem;
+  padding: 0 0.5rem 2rem 0.5rem;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  animation: cardMove 1.5s infinite ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card > h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
+#vidaFinanceira {
+  background-color: #fd377e;
+  color: #ffffff;
+}
+
+#devHub {
+  background-color: #59323f;
+  color: #ffffff;
+}
+
+#burguerDev {
+  background-color: #27ae60;
+  color: #ffffff;
+}
+
+@keyframes cardMove {
+  50% {
+    transform: translateY(-1%);
+  }
+}

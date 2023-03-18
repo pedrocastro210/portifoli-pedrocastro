@@ -1,0 +1,21 @@
+.introduction {
+  position: relative;
+  background-color: #f9f9f9;
+  font-family: "Nunito";
+  z-index: 2;
+  padding: 2rem 0;
+
+  margin-bottom: 2rem;
+}
+
+.introduction > h2,
+.introduction > p {
+  margin-left: 6.2rem;
+}
+
+@media (max-width: 600px) {
+  .introduction > h2,
+  .introduction > p {
+    margin-left: 1rem;
+  }
+}

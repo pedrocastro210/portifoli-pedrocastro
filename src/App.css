@@ -1,0 +1,13 @@
+#root {
+  margin: 0 auto;
+}
+
+.App > h2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  font-family: "Nunito";
+  color: #f9f9f9;
+  margin-bottom: 2rem;
+}

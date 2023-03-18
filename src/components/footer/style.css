@@ -1,0 +1,36 @@
+.footer-containner {
+  font-family: "Nunito";
+  position: relative;
+  background-color: #1b1b1b;
+  color: #f9f9f9;
+  z-index: 2;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.8rem;
+  padding: 0.2rem 4rem;
+}
+
+.box-fixed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  left: 0;
+  bottom: 0;
+  max-width: 100vw;
+  height: 1.5rem;
+  padding-left: 4rem;
+  font-size: 0.8rem;
+  background-color: #000;
+  z-index: 3;
+}
+
+@media (max-width: 450px) {
+  .info {
+    flex-direction: column;
+  }
+}

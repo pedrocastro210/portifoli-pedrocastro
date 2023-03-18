@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 2.2rem;
+  background-color: black;
+  color: #f9f1e9;
+  font-family: "Nunito";
+  font-size: 0.8rem;
+  z-index: 3;
+}
+
+.header > h3 {
+  margin-left: 2rem;
+}
+
+.header > span {
+  margin-right: 2rem;
+}

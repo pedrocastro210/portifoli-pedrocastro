@@ -1,0 +1,27 @@
+.containner {
+  font-family: "Nunito";
+  position: relative;
+  background-color: #f9f9f9;
+  z-index: 2;
+  padding: 2rem 4rem;
+
+  margin-bottom: 2.4rem;
+}
+
+.containner > h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.8rem;
+}
+
+.top-projects {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .top-projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
