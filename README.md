@@ -25,6 +25,6 @@ Web design responsivo
 Se você gostaria de discutir um projeto ou oportunidade de trabalho, por favor, sinta-se livre para entrar em contato comigo por meio das informações abaixo:
 
 #### Email: phfdecastro@hotmail.com
-LinkedIn: <a href="linkedin.com/in/pedrocastro210" target="_blank">Pedro Castro</a>
+LinkedIn: <a href="https::/www.linkedin.com/in/pedrocastro210" target="_blank">Pedro Castro</a>
 
 Estou sempre em busca de novas oportunidades desafiadoras e de colaborações com outras pessoas apaixonadas por desenvolvimento web. Agradeço pelo seu interesse no meu trabalho e estou ansioso para falar com você em breve!
