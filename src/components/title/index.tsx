@@ -18,9 +18,21 @@ export const BackgroundAnimated = () => {
             {/* <p className="main-bio">Desenvolvedor Front-End</p> */}
           </div>
           <div className="main-icons">
-            <GithubOutlined />
-            <LinkedinOutlined />
-            <InstagramOutlined />
+            <a href="https://github.com/pedrocastro210" target={"_blank"}>
+              <GithubOutlined />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/pedrocastro210/"
+              target={"_blank"}
+            >
+              <LinkedinOutlined />
+            </a>
+            <a
+              href="https://www.instagram.com/pedro_castro210"
+              target={"_blank"}
+            >
+              <InstagramOutlined />
+            </a>
           </div>
         </div>
       </div>

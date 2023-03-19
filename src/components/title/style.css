@@ -21,18 +21,18 @@
 }
 
 .logo {
+  margin-top: 5%;
   width: 75vw;
   margin-bottom: 6rem;
 }
 
 .info-logo {
-  width: 60vw;
+  width: 30vw;
 }
 
 .main-bio {
   font-family: "Nunito", sans-serif;
   position: relative;
-  /* width: 100vw; */
   color: #f9f1e9;
   text-align: center;
   text-transform: uppercase;
@@ -54,13 +54,24 @@
   width: 100vw;
 }
 
-.main-icons > span {
+.main-icons > a > span {
   font-size: 1.4rem;
   color: #f9f1e9;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.main-icons > span:hover {
+.main-icons > a > span:hover {
   opacity: 80%;
+}
+
+@media (max-width: 720px) {
+  .logo {
+    margin-top: 30%;
+    width: 90vw;
+  }
+
+  .info-logo {
+    width: 60vw;
+  }
 }
