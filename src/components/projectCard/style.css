@@ -35,6 +35,22 @@
   color: #ffffff;
 }
 
+.card > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.card > a:hover {
+  transform: scale(1.02);
+}
+
 @keyframes cardMove {
   50% {
     transform: translateY(-1%);

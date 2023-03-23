@@ -11,8 +11,8 @@ export const Portfolio = () => {
           title={"Vida Financeira"}
           description={`Com esta aplicação, o usuário poderá cadastrar suas despesas e receitas de forma rápida e fácil, categorizando cada transação por tipo e valor.
           Com uma interface intuitiva e fácil de usar, a aplicação pode ser acessada em qualquer lugar.`}
-          link={""}
-          nameLink={"vercel.com"}
+          link={"https://vida-financeira.vercel.app/"}
+          nameLink={"Acessar Projeto"}
         />
         <ProjectCard
           id="devHub"
@@ -20,8 +20,8 @@ export const Portfolio = () => {
           description={
             "O projeto tem como objetivo permitir que os desenvolvedores possam acompanhar seu progresso em relação a suas habilidades técnicas e identificar áreas de melhoria para aprimorar seu conhecimento. Com esta aplicação, os desenvolvedores poderão cadastrar seus conhecimentos em diferentes tecnologias, linguagens de programação, frameworks e outras habilidades técnicas relevantes para seu trabalho."
           }
-          link={""}
-          nameLink={"vercel.com"}
+          link={"https://dev-hub-mu.vercel.app/home"}
+          nameLink={"Acessar Projeto"}
         />
         <ProjectCard
           id="burguerDev"
@@ -29,8 +29,8 @@ export const Portfolio = () => {
           description={
             "Projeto de uma Hamburgueria desenvolvido em React e TypeScript. O projeto tem como objetivo fornecer uma experiência de compra online agradável e intuitiva para os clientes da hamburgueria. Com esta aplicação, os clientes podem navegar pelos produtos, adicionando itens ao seu carrinho de compras e filtrar por categorias na barra de pesquisa."
           }
-          link={""}
-          nameLink={"vercel.com"}
+          link={"https://burguer-dev.vercel.app/"}
+          nameLink={"Acessar Projeto"}
         />
       </div>
     </div>

@@ -19,7 +19,9 @@ export const ProjectCard = ({
     <div id={id} className="card">
       <h3>{title}</h3>
       <p>{description}</p>
-      <a href={link}>{nameLink}</a>
+      <a href={link} target="_blank">
+        {nameLink}
+      </a>
     </div>
   );
 };
