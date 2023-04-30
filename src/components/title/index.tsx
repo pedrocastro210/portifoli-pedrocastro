@@ -14,8 +14,10 @@ export const BackgroundAnimated = () => {
         <div id="large-header" className="large-header">
           <div className="main-header">
             <img className="logo" src={logo} alt="" />
+            <p className="main-title">
+              Pedro <span>Castro</span>
+            </p>
             <img className="info-logo" src={infoLogo} alt="" />
-            {/* <p className="main-bio">Desenvolvedor Front-End</p> */}
           </div>
           <div className="main-icons">
             <a href="https://github.com/pedrocastro210" target={"_blank"}>

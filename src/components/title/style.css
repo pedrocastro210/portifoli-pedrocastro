@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;200&display=swap");
+
 .large-header {
   position: relative;
   display: flex;
@@ -24,15 +26,19 @@
   margin-top: 5%;
   width: 75vw;
   margin-bottom: 6rem;
+  display: none;
 }
 
 .info-logo {
+  position: absolute;
+  top: 60%;
   width: 30vw;
 }
 
 .main-bio {
   font-family: "Nunito", sans-serif;
-  position: relative;
+  position: absolute;
+  top: 50%;
   color: #f9f1e9;
   text-align: center;
   text-transform: uppercase;
@@ -40,14 +46,36 @@
   letter-spacing: 0.4em;
 }
 
-.main-title .thin {
+.main-title {
+  position: absolute;
+  top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto Slab", serif;
+  font-size: 6.2vw;
+  font-weight: 300;
+  letter-spacing: 2.5rem;
+  text-transform: uppercase;
+  color: #f9f1e9;
+  max-width: 75%;
+  width: 100%;
+}
+
+.main-title > span {
+  flex-direction: column;
   font-weight: 200;
+  position: absolute;
+  right: 0;
+  top: 100%;
 }
 
 .main-icons {
   margin-top: 2.8rem;
   display: flex;
   justify-content: center;
+  position: absolute;
+  top: 70%;
   gap: 32px;
   padding: 0.8rem 0;
   background-color: rgba(0, 0, 0, 0.5);
@@ -67,11 +95,36 @@
 
 @media (max-width: 720px) {
   .logo {
-    margin-top: 30%;
+    margin-top: 10vh;
     width: 90vw;
+    display: block;
+  }
+
+  .main-title {
+    display: none;
   }
 
   .info-logo {
+    width: 40vw;
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .info-logo {
     width: 60vw;
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .main-icons {
+    gap: 12px;
+    padding: 0.3rem 0;
+  }
+  .main-icons > a > span {
+    font-size: 0.8rem;
   }
 }
