@@ -4,14 +4,14 @@ Este é o meu portfólio de desenvolvedor front-end, onde apresento uma seleçã
 ## Projetos
 Aqui estão alguns dos projetos que desenvolvi:
 
-### Vida Financeira (link para o projeto)
-Breve descrição do projeto e quais tecnologias foram utilizadas.
+### Vida Financeira <a href="https://vida-financeira.vercel.app/">Acessar Projeto</a>
+Com esta aplicação, o usuário poderá cadastrar suas despesas e receitas de forma rápida e fácil, categorizando cada transação por tipo e valor. Com uma interface intuitiva e fácil de usar, a aplicação pode ser acessada em qualquer lugar.
 
-### Dev Hub (link para o projeto)
-Breve descrição do projeto e quais tecnologias foram utilizadas.
+### Dev Hub <a href="https://dev-hub-mu.vercel.app/home">Acessar Projeto</a>
+O projeto tem como objetivo permitir que os desenvolvedores possam acompanhar seu progresso em relação a suas habilidades técnicas e identificar áreas de melhoria para aprimorar seu conhecimento. Com esta aplicação, os desenvolvedores poderão cadastrar seus conhecimentos em diferentes tecnologias, linguagens de programação, frameworks e outras habilidades técnicas relevantes para seu trabalho.
 
-### Burguer Dev (link para o projeto)
-Breve descrição do projeto e quais tecnologias foram utilizadas.
+### Burguer Dev <a href="https://burguer-dev.vercel.app/">Acessar Projeto</a>
+Projeto de uma Hamburgueria desenvolvido em React e TypeScript. O projeto tem como objetivo fornecer uma experiência de compra online agradável e intuitiva para os clientes da hamburgueria. Com esta aplicação, os clientes podem navegar pelos produtos, adicionando itens ao seu carrinho de compras e filtrar por categorias na barra de pesquisa.
 
 ##
 
