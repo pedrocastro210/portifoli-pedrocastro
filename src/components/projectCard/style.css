@@ -35,6 +35,16 @@
   color: #ffffff;
 }
 
+#startCode {
+  background-color: #1b2727;
+  color: #ffffff;
+}
+
+#receitaFacil {
+  background-color: #f3f9ff;
+  color: #000000;
+}
+
 .card > a {
   display: flex;
   justify-content: center;
@@ -47,6 +57,7 @@
   padding: 2px;
 
   border: 1px solid #f9f9f9;
+
   border-radius: 10px;
   transition: 0.4s;
 }
