@@ -1,3 +1,4 @@
+import { ButtonProject } from "../buttonProject";
 import "./style.css";
 
 interface IPropsCard {
@@ -19,9 +20,7 @@ export const ProjectCard = ({
     <div id={id} className="card">
       <h3>{title}</h3>
       <p>{description}</p>
-      <a href={link} target="_blank">
-        {nameLink}
-      </a>
+      <ButtonProject link={link} nameLink={nameLink} />
     </div>
   );
 };

@@ -13,13 +13,21 @@ export const BackgroundAnimated = () => {
       <div className="content">
         <div id="large-header" className="large-header">
           <div className="main-header">
-            <img className="logo" src={logo} alt="" />
-            <p className="main-title">
+            <img
+              className="logo animate__animated animate__bounceInLeft"
+              src={logo}
+              alt="Pedro Castro"
+            />
+            <p className="main-title animate__animated animate__bounceInLeft">
               Pedro <span>Castro</span>
             </p>
-            <img className="info-logo" src={infoLogo} alt="" />
+            <img
+              className="info-logo animate__animated animate__bounceInRight"
+              src={infoLogo}
+              alt="Desenvolvedor Front-End"
+            />
           </div>
-          <div className="main-icons">
+          <div className="main-icons animate__animated animate__flipInX">
             <a href="https://github.com/pedrocastro210" target={"_blank"}>
               <GithubOutlined />
             </a>

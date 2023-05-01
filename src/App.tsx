@@ -7,10 +7,9 @@ import { Background } from "./components/background";
 import { Portfolio } from "./components/portfolio";
 import { Qualifications } from "./components/qualifications";
 import { Footer } from "./components/footer";
+import "animate.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <Background />

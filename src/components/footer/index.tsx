@@ -12,7 +12,7 @@ export const Footer = () => {
           </p>
           <p>Celular: +55 (24) 97402-9166</p>
         </div>
-        <a href="">Sobre-mim</a>
+        {/* <a href="">Sobre-mim</a> */}
       </div>
       <div className="box-fixed">
         <p>
