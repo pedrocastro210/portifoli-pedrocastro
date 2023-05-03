@@ -14,15 +14,15 @@ export const BackgroundAnimated = () => {
         <div id="large-header" className="large-header">
           <div className="main-header">
             <img
-              className="logo animate__animated animate__bounceInLeft"
+              className="logo animate__animated animate__bounceInLeft animate__delay-1s"
               src={logo}
               alt="Pedro Castro"
             />
-            <p className="main-title animate__animated animate__bounceInLeft">
+            <p className="main-title animate__animated animate__bounceInLeft animate__delay-1s">
               Pedro <span>Castro</span>
             </p>
             <img
-              className="info-logo animate__animated animate__bounceInRight"
+              className="info-logo animate__animated animate__bounceInRight animate__delay-1s"
               src={infoLogo}
               alt="Desenvolvedor Front-End"
             />
