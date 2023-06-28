@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.png";
-import infoLogo from "../../assets/infoLogo.png";
+import infoLogo from "../../assets/infoLogo.svg";
 import "./style.css";
 import {
   GithubOutlined,
@@ -26,6 +26,9 @@ export const BackgroundAnimated = () => {
               src={infoLogo}
               alt="Desenvolvedor Front-End"
             />
+            <p className="info-title animate__animated animate__bounceInRight animate__delay-1s">
+              Desenvolvedor Full-Stack
+            </p>
           </div>
           <div className="main-icons animate__animated animate__flipInX">
             <a href="https://github.com/pedrocastro210" target={"_blank"}>

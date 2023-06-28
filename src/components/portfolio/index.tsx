@@ -6,7 +6,7 @@ import AnimatedElement from "../animatedElement";
 export const Portfolio = () => {
   return (
     <div className="containner">
-      <h3>My top projects</h3>
+      <h3>My top projects Front-End</h3>
       <h3>React</h3>
       <div className="top-projects">
         <AnimatedElement
@@ -84,6 +84,23 @@ export const Portfolio = () => {
               link={
                 "https://www.figma.com/proto/nFojUBEs5fCcuW77D0cYPd?node-id=1-294&locale=en"
               }
+              nameLink={"Acessar Projeto"}
+            />
+          }
+        />
+      </div>
+
+      <h3>My top projects Back-End</h3>
+      <h3>Python</h3>
+      <div className="top-projects">
+        <AnimatedElement
+          elementId="left"
+          project={
+            <ProjectCard
+              id="bandKamp"
+              title="BandKamp"
+              description="BandKamp - API é uma solução versátil e poderosa para a criação de aplicativos relacionados à gestão de usuários, álbuns e músicas. Seu uso de tecnologias como Django, Generic Views, Model Serializers e PostgreSQL garante uma base sólida e eficiente para o desenvolvimento de projetos nessa área."
+              link={"https://bandkamp-app-6ilr.onrender.com/api/docs/"}
               nameLink={"Acessar Projeto"}
             />
           }

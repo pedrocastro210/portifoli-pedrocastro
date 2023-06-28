@@ -33,6 +33,7 @@
   position: absolute;
   top: 60%;
   width: 30vw;
+  display: none;
 }
 
 .main-bio {
@@ -56,6 +57,22 @@
   font-size: 6.2vw;
   font-weight: 300;
   letter-spacing: 2.5rem;
+  text-transform: uppercase;
+  color: #f9f1e9;
+  max-width: 75%;
+  width: 100%;
+}
+
+.info-title {
+  position: absolute;
+  top: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito";
+  font-size: 1.6vw;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
   color: #f9f1e9;
   max-width: 75%;
@@ -108,6 +125,16 @@
     width: 40vw;
     position: relative;
     top: 0;
+    display: block;
+  }
+
+  .info-title {
+    display: none;
+  }
+
+  .main-icons {
+    gap: 12px;
+    padding: 0.3rem 0;
   }
 }
 
@@ -117,13 +144,12 @@
     position: relative;
     top: 0;
   }
-}
 
-@media (max-width: 300px) {
   .main-icons {
     gap: 12px;
     padding: 0.3rem 0;
   }
+
   .main-icons > a > span {
     font-size: 0.8rem;
   }

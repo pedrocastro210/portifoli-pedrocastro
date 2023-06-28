@@ -46,6 +46,11 @@
   color: #000000;
 }
 
+#bandKamp {
+  background-color: rgb(52, 28, 77);
+  color: #ffffff;
+}
+
 @keyframes cardMove {
   50% {
     transform: translateY(-1%);

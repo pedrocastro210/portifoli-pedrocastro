@@ -9,7 +9,8 @@
   margin-bottom: 2.4rem;
 }
 
-.containner > h3 {
+.containner > h3,
+h4 {
   display: flex;
   justify-content: center;
   margin-bottom: 2.8rem;

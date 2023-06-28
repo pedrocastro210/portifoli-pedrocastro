@@ -3,7 +3,7 @@ button {
   display: inline-block;
   cursor: pointer;
   outline: none;
-  border: 0;
+  border: 1px solid;
   vertical-align: middle;
   text-decoration: none;
   background: #fff;
@@ -11,6 +11,7 @@ button {
   font-size: 80%;
   font-family: inherit;
   border-radius: 1.925rem;
+  border-color: #282936;
 }
 
 button.learn-more {
