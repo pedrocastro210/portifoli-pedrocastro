@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  max-width: 140%;
+  max-width: 90%;
   width: 22rem;
   padding: 0 0.5rem 2rem 0.5rem;
   border-radius: 15px;
@@ -54,5 +54,11 @@
 @keyframes cardMove {
   50% {
     transform: translateY(-1%);
+  }
+}
+
+@media (max-width: 370px) {
+  .card {
+    width: 90vw;
   }
 }
